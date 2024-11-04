@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos de Redes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Productos de Redes de Telecomunicaciones</h1>
+        <input type="text" id="search" placeholder="Buscar productos...">
+    </header>
+    <main>
+        <section id="catalog">
+            <h2>Capa Física</h2>
+            <div class="product highlight" data-name="Hub">
+                <img src="images/hub.jpg" alt="Hub">
+                <h3>Hub</h3>
+                <p>Dispositivo que conecta múltiples dispositivos en una red local. Ideal para pequeñas oficinas o redes domésticas, permitiendo la comunicación entre equipos.</p>
+                <p>Características: Hasta 8 puertos, fácil instalación, sin configuración requerida.</p>
+                <p>Uso recomendado: Conectar computadoras, impresoras y otros dispositivos en una red local.</p>
+            </div>
+            <div class="product" data-name="Cable de Red">
+                <img src="images/cable_red.jpg" alt="Cable de Red">
+                <h3>Cable de Red</h3>
+                <p>Utilizado para conectar dispositivos a una red local. Viene en diferentes categorías que determinan la velocidad de transmisión y la distancia.</p>
+                <p>Características: Disponible en Cat5e, Cat6, y Cat6a; longitudes personalizables.</p>
+                <p>Uso recomendado: Ideal para conexiones entre switches, routers y computadoras.</p>
+            </div>
+            <div class="product" data-name="Repetidor">
+                <img src="images/repetidor.webp" alt="Repetidor">
+                <h3>Repetidor</h3>
+                <p>Amplifica la señal para extender el alcance de una red. Esencial en áreas donde la señal es débil o intermitente.</p>
+                <p>Características: Compatible con múltiples estándares de red, fácil de instalar.</p>
+                <p>Uso recomendado: Aumentar el rango de redes inalámbricas en espacios grandes.</p>
+            </div>
+            <div class="product" data-name="Transceptor">
+                <img src="images/transceptor.webp" alt="Transceptor">
+                <h3>Transceptor</h3>
+                <p>Dispositivo que convierte señales entre diferentes medios de transmisión. Facilita la comunicación entre redes de diferentes tipos.</p>
+                <p>Características: Soporta múltiples protocolos y tipos de conectores.</p>
+                <p>Uso recomendado: Conexiones entre diferentes tipos de cables (como fibra óptica y cobre).</p>
+            </div>
+            <div class="product" data-name="Concentrador de Fibra Óptica">
+                <img src="images/concentrador_fibra.jpg" alt="Concentrador de Fibra Óptica">
+                <h3>Concentrador de Fibra Óptica</h3>
+                <p>Permite la interconexión de múltiples enlaces de fibra óptica. Crucial para la gestión eficiente del tráfico de datos.</p>
+                <p>Características: Conexiones de alta velocidad, soporte para diferentes tipos de fibra.</p>
+                <p>Uso recomendado: Implementaciones en redes empresariales que requieren alta capacidad de datos.</p>
+            </div>
+
+            <h2>Capa de Enlace de Datos</h2>
+            <div class="product" data-name="Switch">
+                <img src="images/switch.webp" alt="Switch">
+                <h3>Switch</h3>
+                <p>Conecta dispositivos en una red y dirige el tráfico de datos. Mejora la eficiencia de la red al reducir colisiones de datos.</p>
+                <p>Características: Hasta 48 puertos, administración de tráfico y soporte para VLANs.</p>
+                <p>Uso recomendado: Redes locales en oficinas y empresas para optimizar la comunicación entre dispositivos.</p>
+            </div>
+            <div class="product" data-name="Bridge">
+                <img src="images/bridge.webp" alt="Bridge">
+                <h3>Bridge</h3>
+                <p>Conecta dos o más redes para actuar como un único segmento. Ayuda a mejorar la eficiencia de la red y a reducir el tráfico innecesario.</p>
+                <p>Características: Compatible con redes Ethernet, simplifica la gestión del tráfico.</p>
+                <p>Uso recomendado: Unir redes locales en diferentes áreas físicas.</p>
+            </div>
+            <div class="product" data-name="NIC">
+                <img src="images/nic.jpg" alt="Tarjeta de Interfaz de Red">
+                <h3>Tarjeta de Interfaz de Red (NIC)</h3>
+                <p>Permite que un dispositivo se conecte a una red. Es fundamental para la comunicación en redes alámbricas e inalámbricas.</p>
+                <p>Características: Soporta conexiones Ethernet y Wi-Fi, instalación sencilla.</p>
+                <p>Uso recomendado: Equipar computadoras y otros dispositivos para su conexión a redes.</p>
+            </div>
+            <div class="product" data-name="Controlador de LAN">
+                <img src="images/controlador_lan.webp" alt="Controlador de Red Local">
+                <h3>Controlador de Red Local (LAN Controller)</h3>
+                <p>Gestión de conexiones en una red local. Optimiza el rendimiento de la red al gestionar eficientemente los recursos disponibles.</p>
+                <p>Características: Monitoreo de tráfico, configuraciones avanzadas de red.</p>
+                <p>Uso recomendado: Empresas que necesitan gestionar múltiples dispositivos en una red local.</p>
+            </div>
+            <div class="product" data-name="Punto de Acceso Inalambrico">
+                <img src="images/punto_acceso.jpg" alt="Punto de Acceso Inalambrico">
+                <h3>Punto de Acceso Inalambrico</h3>
+                <p>Permite la conexión de dispositivos a una red inalámbrica. Es esencial para proporcionar acceso a Internet en espacios amplios.</p>
+                <p>Características: Soporta múltiples conexiones simultáneas, fácil configuración.</p>
+                <p>Uso recomendado: Ampliar la cobertura de red en hogares y oficinas.</p>
+            </div>
+
+            <h2>Capa de Red</h2>
+            <div class="product" data-name="Router">
+                <img src="images/router.webp" alt="Router">
+                <h3>Router</h3>
+                <p>Dirige el tráfico entre redes y proporciona acceso a Internet. Esencial para la conexión de redes locales a Internet.</p>
+                <p>Características: Soporte para IPv4 e IPv6, firewall integrado, opciones de redireccionamiento de puertos.</p>
+                <p>Uso recomendado: Conectar redes domésticas o empresariales a Internet y gestionar el tráfico de datos.</p>
+            </div>
+            <div class="product" data-name="Gateway">
+                <img src="images/gateway.webp" alt="Gateway">
+                <h3>Gateway</h3>
+                <p>Punto de acceso que conecta redes de diferentes protocolos. Facilita la comunicación entre sistemas que no son compatibles directamente.</p>
+                <p>Características: Traducción de protocolos, interconexión de redes dispares.</p>
+                <p>Uso recomendado: Integrar redes antiguas con nuevas tecnologías.</p>
+            </div>
+            <div class="product" data-name="Firewall">
+                <img src="images/firewall.jpg" alt="Firewall">
+                <h3>Firewall</h3>
+                <p>Protege la red controlando el tráfico entrante y saliente. Es una primera línea de defensa contra ataques cibernéticos.</p>
+                <p>Características: Filtrado de paquetes, VPN integrado, opciones de monitoreo.</p>
+                <p>Uso recomendado: Asegurar la red contra accesos no autorizados.</p>
+            </div>
+            <div class="product" data-name="Conmutador de Etapa 3">
+                <img src="images/conmutador_capa3.jpg" alt="Conmutador de Etapa 3">
+                <h3>Conmutador de Etapa 3</h3>
+                <p>Opera en la capa de red, dirigiendo el tráfico de IP. Combina las funciones de conmutación y enrutamiento.</p>
+                <p>Características: Alta capacidad de procesamiento, soporte para múltiples VLANs.</p>
+                <p>Uso recomendado: Redes empresariales que requieren una gestión eficiente del tráfico.</p>
+            </div>
+            <div class="product" data-name="Protocolo de Enrutamiento">
+                <img src="images/protocolo_enrutamiento.jpg" alt="Protocolo de Enrutamiento">
+                <h3>Protocolo de Enrutamiento</h3>
+                <p>Define reglas para el enrutamiento de datos entre redes. Es esencial para optimizar el tráfico y asegurar una entrega eficiente de datos.</p>
+                <p>Características: Protocolos como OSPF, BGP, EIGRP que permiten el intercambio de información de enrutamiento.</p>
+                <p>Uso recomendado: Implementaciones en redes complejas que requieren optimización de rutas.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

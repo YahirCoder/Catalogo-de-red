@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+#catalog {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los productos se ajusten en varias líneas */
+    justify-content: space-between; /* Distribuye los elementos para eliminar espacios en blanco */
+    gap: 20px; /* Espaciado entre elementos */
+}
+
+.product {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: calc(20% - 20px); /* Ancho del 20% del contenedor, menos el margen */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h3 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+
+.product p {
+    font-size: 0.9em;
+    color: #666;
+    margin: 5px 0 0;
+}
+
+.product1{
+    margin-top: 50px;
+}
